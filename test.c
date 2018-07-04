@@ -18,5 +18,7 @@ void main()
         GPIO_CLR = 1 << gpin;
         sleep(1);
     }
+    
+    unmap_gpio(&GPIO);
     return;
 }
